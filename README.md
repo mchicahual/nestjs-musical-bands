@@ -26,7 +26,8 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-Features:
+### Features:
+```
 -use Framework to node NestJs with nest cli
 -use Validation for request
 -use Documentation with swagger
@@ -34,6 +35,7 @@ Features:
 -use Log
 -use environmet variables
 -use TypeScript
+```
 
 ## Installation
 
