@@ -35,6 +35,7 @@
 -use Log
 -use environmet variables
 -use TypeScript
+-use FileSystem for save temp data 'favorite'
 ```
 
 ## Installation
