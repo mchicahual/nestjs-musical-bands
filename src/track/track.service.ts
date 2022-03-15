@@ -58,8 +58,13 @@ export class TrackService {
         const config = {
             adapter: this.cache.adapter,
         };
-        const { data } = await firstValueFrom(this.httpService.get(`${process.env.BASE_URL_ITUNES}/search?term=${name}`, config));
-        return data;
+        try {
+            const { data } = await firstValueFrom(this.httpService.get(`${process.env.BASE_URL_ITUNES}/search?term=${name}`, config));
+            return data;
+        } catch (error) {
+            throw new BadRequestException("Not Found Artist Name");
+        }
+        
     }
 
     async searchTracks(name: string): Promise<TrackResponseDTO> {
