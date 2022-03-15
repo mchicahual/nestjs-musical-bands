@@ -45,10 +45,12 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Docs
+## Docs Swagger
 
 ```bash
-$ /api/v1/docs
+<host:port>/api/v1/docs
+
+example: localhost:3001/api/v1/docs
 ```
 
 ## Test
