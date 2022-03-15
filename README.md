@@ -36,6 +36,7 @@
 -use environmet variables
 -use TypeScript
 -use FileSystem for save temp data 'favorite'
+-use CORS for enabled request frontend
 ```
 
 ## Installation
